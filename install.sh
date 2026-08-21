@@ -7,6 +7,8 @@ echo "Installing JSON Search Tool..."
 pkg update -y
 pkg install python -y
 
-echo "Starting Tool..."
+pip install -r requirements.txt
+
+echo "Installation Complete"
 
 python search.py
